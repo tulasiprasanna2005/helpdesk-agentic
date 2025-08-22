@@ -24,16 +24,6 @@ This was built as part of the **Wexa AI Fresher Assignment**.
 
 ---
 
-## 🏗️ Architecture
-```mermaid
-flowchart LR
-  User -->|Create Ticket| Frontend[React + Vite]
-  Frontend --> Backend[Node.js + Express + MongoDB]
-  Backend --> Agent[Agentic Workflow Stub]
-  Backend --> DB[(MongoDB)]
-  Agent --> KB[(Knowledge Base)]
-  Agent --> Audit[(Audit Logs)]
-
 
 Frontend: React (Vite, Tailwind optional, React Router for pages)
 
